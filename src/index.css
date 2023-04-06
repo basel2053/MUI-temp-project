@@ -1,0 +1,11 @@
+.idle {
+  opacity: 0;
+  transform: translateY(100px);
+}
+.animate {
+  opacity: 1;
+}
+
+.footer-input {
+  padding: 0 !important;
+}
