@@ -20,14 +20,14 @@ function Nav() {
   return (
     <>
       <AppBar
-        component='nav'
+        component="nav"
         elevation={0}
         sx={{ background: '#fafafa', minHeight: 100, justifyContent: 'center', position: 'relative' }}
       >
         <Container sx={{ maxWidth: { xl: 1400, lg: 1400, md: 1040, tl: 800, sm: 600 } }}>
           <Toolbar sx={{ color: '#2a2a2a', gap: { lg: 8, md: 4 } }}>
-            <Typography variant='h6' component='div' sx={{ flexGrow: 1, display: 'block' }}>
-              <img src='/images/logo.png' alt='logo' />
+            <Typography variant="h6" component="div" sx={{ flexGrow: 1, display: 'block' }}>
+              <img src="/images/logo.png" alt="logo" />
             </Typography>
             <Box sx={{ display: { xs: 'none', tl: 'block' } }}>
               {navItems.map(item => (
@@ -47,14 +47,14 @@ function Nav() {
             <Box sx={{ display: { sm: 'block', tl: 'none' } }}>
               {showMenu ? (
                 <CloseIcon
-                  fontSize='large'
+                  fontSize="large"
                   onClick={() => {
                     openMenuHandler(false);
                   }}
                 />
               ) : (
                 <MenuIcon
-                  fontSize='large'
+                  fontSize="large"
                   onClick={() => {
                     openMenuHandler(true);
                   }}
@@ -62,8 +62,8 @@ function Nav() {
               )}
             </Box>
             <Button
-              variant='contained'
-              color='error'
+              variant="contained"
+              color="error"
               sx={{
                 color: '#fff',
                 fontWeight: 400,
@@ -91,7 +91,7 @@ function Nav() {
           right: 0,
           transition: '0.4s',
         }}
-        maxWidth='80%'
+        maxWidth="80%"
         className={showMenu ? 'animate' : 'idle'}
       >
         {navItems.map(item => (
@@ -101,7 +101,7 @@ function Nav() {
               color: '#2a2a2a',
               fontWeight: 500,
               '&:active': { bgcolor: theme => theme.palette.error.main, color: '#fff' },
-              '&:first-child': { borderTop: '1px solid #e7e7e7' },
+              '&:first-of-type': { borderTop: '1px solid #e7e7e7' },
               borderBottom: '1px solid #e7e7e7',
               py: 1.5,
             }}

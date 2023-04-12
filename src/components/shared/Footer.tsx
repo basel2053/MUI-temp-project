@@ -23,15 +23,15 @@ function Footer() {
   return (
     <Box>
       <Container sx={{ maxWidth: { xl: 1400, lg: 1400, md: 1040, tl: 800, sm: 600 } }}>
-        <Stack direction='row' sx={{ px: 2.8 }}>
+        <Stack direction="row" sx={{ px: 2.8 }}>
           <Box sx={{ flex: 1 }}>
-            <img src='/images/logo.png' alt='logo' />
-            <Typography color='secondary' sx={{ my: 3 }}>
+            <img src="/images/logo.png" alt="logo" />
+            <Typography color="secondary" sx={{ my: 3 }}>
               info@company.com
             </Typography>
-            <Stack direction='row' spacing={1}>
+            <Stack direction="row" spacing={1}>
               <Button
-                size='small'
+                size="small"
                 sx={{
                   maxWidth: 35,
                   maxHeight: 35,
@@ -42,10 +42,10 @@ function Footer() {
                   '&:hover': { bgcolor: theme => theme.palette.error.main },
                 }}
               >
-                <FacebookOutlinedIcon sx={{ color: 'white' }} fontSize='small' />
+                <FacebookOutlinedIcon sx={{ color: 'white' }} fontSize="small" />
               </Button>
               <Button
-                size='small'
+                size="small"
                 sx={{
                   maxWidth: 35,
                   maxHeight: 35,
@@ -56,10 +56,10 @@ function Footer() {
                   '&:hover': { bgcolor: theme => theme.palette.error.main },
                 }}
               >
-                <TwitterIcon sx={{ color: 'white' }} fontSize='small' />
+                <TwitterIcon sx={{ color: 'white' }} fontSize="small" />
               </Button>
               <Button
-                size='small'
+                size="small"
                 sx={{
                   maxWidth: 35,
                   maxHeight: 35,
@@ -70,10 +70,10 @@ function Footer() {
                   '&:hover': { bgcolor: theme => theme.palette.error.main },
                 }}
               >
-                <LinkedInIcon sx={{ color: 'white' }} fontSize='small' />
+                <LinkedInIcon sx={{ color: 'white' }} fontSize="small" />
               </Button>
               <Button
-                size='small'
+                size="small"
                 sx={{
                   maxWidth: 35,
                   maxHeight: 35,
@@ -84,12 +84,12 @@ function Footer() {
                   '&:hover': { bgcolor: theme => theme.palette.error.main },
                 }}
               >
-                <InstagramIcon sx={{ color: 'white' }} fontSize='small' />
+                <InstagramIcon sx={{ color: 'white' }} fontSize="small" />
               </Button>
             </Stack>
           </Box>
           <Box sx={{ flex: 1 }}>
-            <Typography variant='h6'>Services</Typography>
+            <Typography variant="h6">Services</Typography>
             <List sx={{ mt: 1 }}>
               {serviceLinks.map(e => (
                 <ListItem
@@ -108,7 +108,7 @@ function Footer() {
             </List>
           </Box>
           <Box sx={{ flex: 1 }}>
-            <Typography variant='h6'>Community</Typography>
+            <Typography variant="h6">Community</Typography>
             <List sx={{ mt: 1 }}>
               {communityLinks.map(e => (
                 <ListItem
@@ -127,14 +127,14 @@ function Footer() {
             </List>
           </Box>
           <Box sx={{ flex: 1 }}>
-            <Typography variant='h6'>Subscribe Newsletters</Typography>
+            <Typography variant="h6">Subscribe Newsletters</Typography>
             <Typography sx={{ color: theme => theme.palette.secondary.main, mt: 2.5, pr: 5 }}>
               Get our latest news and ideas to your inbox
             </Typography>
             <TextField
-              variant='standard'
-              color='primary'
-              placeholder='Your Email'
+              variant="standard"
+              color="primary"
+              placeholder="Your Email"
               sx={{ mt: 2 }}
               InputProps={{
                 style: {
@@ -148,7 +148,7 @@ function Footer() {
                 },
                 disableUnderline: true,
                 endAdornment: (
-                  <InputAdornment position='end'>
+                  <InputAdornment position="end">
                     <SendIcon sx={{ color: '#fff' }} />
                   </InputAdornment>
                 ),
@@ -162,7 +162,7 @@ function Footer() {
           <Typography gutterBottom>Copyright © 2021 Onix Digital Co., Ltd. All Rights Reserved.</Typography>
           <Typography>
             Designed by
-            <Box component='span' sx={{ color: theme => theme.palette.error.main }}>
+            <Box component="span" sx={{ color: theme => theme.palette.error.main, ml: 0.5 }}>
               TemplateMo
             </Box>
           </Typography>

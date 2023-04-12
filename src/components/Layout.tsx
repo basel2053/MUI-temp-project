@@ -3,7 +3,7 @@ import Nav from './shared/Nav';
 import Footer from './shared/Footer';
 
 interface Props {
-  children: React.ReactNode;
+  children: any;
 }
 
 function Layout(props: Props) {
