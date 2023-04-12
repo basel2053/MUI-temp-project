@@ -4,6 +4,7 @@ import theme from './utils/theme';
 import GlobalStyles from '@mui/material/GlobalStyles';
 import Layout from './components/Layout';
 import Hero from './components/Hero';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       {/* <GlobalStyles styles={{ '&::selection': { bgcolor: theme => theme.palette.primary.main, color: '#fff' } }} /> */}
       <Layout>
         <Hero />
+        <Services />
       </Layout>
     </ThemeProvider>
   );

@@ -13,7 +13,7 @@ import CallIcon from '@mui/icons-material/Call';
 // import required modules
 import { Autoplay, Pagination } from 'swiper';
 
-export default function Slider() {
+export default function HeroSlider() {
   const pagination = {
     clickable: true,
     renderBullet: function (index: number, className: string) {

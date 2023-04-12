@@ -1,11 +1,8 @@
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
 
-import CallIcon from '@mui/icons-material/Call';
-import Slider from './sliders/Slider';
+import HeroSlider from './sliders/HeroSlider';
 
 const Hero = (): JSX.Element => {
   return (
@@ -16,7 +13,7 @@ const Hero = (): JSX.Element => {
       <Container
         sx={{ maxWidth: { xl: 1350, lg: 1400, md: 1040, tl: 800, sm: 600 }, alignSelf: 'center', ml: 11, width: '40%' }}
       >
-        <Slider />
+        <HeroSlider />
       </Container>
       <img src="/images/banner-right-image.png" alt="banner-right" style={{ flex: 1 }} />
     </Stack>

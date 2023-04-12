@@ -12,12 +12,30 @@
 
 .hero-slider .swiper-pagination {
   position: static;
-  text-align: left;
   margin-top: 2.5rem;
+  text-align: left;
 }
 
 .hero-slider__pagination {
   background-color: transparent;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-right: 1rem !important;
+}
+
+.hero-slider .swiper-pagination-bullet-active {
+  color: #ff695f;
+  text-decoration: underline;
+}
+
+.service-slider .swiper-pagination {
+  position: static;
+  margin-top: 3rem;
+}
+
+.service-slider .swiper-pagination-bullet {
+  background-color: #ff695f;
+}
+
+.service-slider .swiper-pagination-bullet-active {
+  transform: scale(1.3);
 }
