@@ -25,7 +25,7 @@ const Services = () => {
         </Typography>
         <ServiceSlider />
       </Container>
-      <Box sx={{ position: 'absolute', right: 0, mt: -30 }}>
+      <Box sx={{ position: 'absolute', right: 0, mt: -27 }}>
         <img src="/images/services-right-dec.png" />
       </Box>
     </>

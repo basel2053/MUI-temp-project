@@ -39,24 +39,9 @@ export default function HeroSlider() {
           </Typography>
           <Typography variant="h3" fontWeight="900" lineHeight={1.5}>
             Build
-            <Typography
-              variant="h3"
-              display="inline"
-              fontWeight="900"
-              sx={{ mx: 1, color: theme => theme.palette.primary.main }}
-            >
-              your website
-            </Typography>
+            <span style={{ margin: '0 8px', color: '#03A4ED' }}>your website</span>
             the best in
-            <Typography
-              variant="h3"
-              display="inline"
-              fontWeight="900"
-              sx={{ ml: 1, color: theme => theme.palette.error.main }}
-            >
-              SEO
-            </Typography>
-            ?
+            <span style={{ margin: '0 8px', color: '#FF695F' }}>SEO</span>?
           </Typography>
           <p>this is a professional looking HTML Bootstrap 5 website template brought to you by TemplateMo website.</p>
           <Stack direction="row" alignItems="center">
@@ -100,23 +85,9 @@ export default function HeroSlider() {
           </Typography>
           <Typography variant="h3" fontWeight="900" lineHeight={1.5}>
             Get the
-            <Typography
-              variant="h3"
-              display="inline"
-              fontWeight="900"
-              sx={{ mx: 1, color: theme => theme.palette.primary.main }}
-            >
-              best ideas
-            </Typography>
+            <span style={{ margin: '0 8px', color: '#03A4ED' }}>best ideas</span>
             for
-            <Typography
-              variant="h3"
-              display="inline"
-              fontWeight="900"
-              sx={{ ml: 1, color: theme => theme.palette.error.main }}
-            >
-              your website
-            </Typography>
+            <span style={{ margin: '0 8px', color: '#FF695F' }}>your website</span>
           </Typography>
           <p>
             You are NOT allowed to redistribute this template ZIP file on any Free CSS collection websites. Contact us
@@ -163,24 +134,9 @@ export default function HeroSlider() {
           </Typography>
           <Typography variant="h3" fontWeight="900" lineHeight={1.5}>
             Watch
-            <Typography
-              variant="h3"
-              display="inline"
-              fontWeight="900"
-              sx={{ mx: 1, color: theme => theme.palette.primary.main }}
-            >
-              our videos
-            </Typography>
+            <span style={{ margin: '0 8px', color: '#03A4ED' }}>our videos</span>
             for your
-            <Typography
-              variant="h3"
-              display="inline"
-              fontWeight="900"
-              sx={{ ml: 1, color: theme => theme.palette.error.main }}
-            >
-              project
-            </Typography>
-            ?
+            <span style={{ margin: '0 8px', color: '#FF695F' }}>project</span>?
           </Typography>
           <p>
             Please

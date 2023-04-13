@@ -5,6 +5,8 @@ import GlobalStyles from '@mui/material/GlobalStyles';
 import Layout from './components/Layout';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import Stats from './components/Stats';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Layout>
         <Hero />
         <Services />
+        <Stats />
+        <Projects />
       </Layout>
     </ThemeProvider>
   );
