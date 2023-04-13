@@ -27,19 +27,68 @@
   text-decoration: underline;
 }
 
-.service-slider .swiper-pagination {
+.service-slider .swiper-pagination,
+.project-slider .swiper-pagination {
   position: static;
   margin-top: 3rem;
 }
 
-.service-slider .swiper-pagination-bullet {
+.service-slider .swiper-pagination-bullet,
+.project-slider .swiper-pagination-bullet {
   background-color: #ff695f;
 }
 
-.service-slider .swiper-pagination-bullet-active {
+.service-slider .swiper-pagination-bullet-active,
+.project-slider .swiper-pagination-bullet-active {
   transform: scale(1.3);
 }
 
 .project-slider {
   margin: '20px 2rem';
+}
+
+.portfolio-container:hover img {
+  opacity: 0.75;
+}
+
+.portfolio-container:hover div {
+  opacity: 1;
+  transform: translateY(-40px);
+}
+
+.portfolio-container img {
+  transition: 0.3s all;
+}
+
+.portfolio-container div {
+  transition: 0.5s transform;
+}
+
+.project-slider .swiper-button-prev,
+.project-slider .swiper-button-next {
+  color: #fff;
+  background-color: #ff695f;
+  opacity: 0.7;
+  transition: 0.3s all;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  top: 42%;
+}
+.project-slider .swiper-button-prev {
+  left: 2%;
+}
+.project-slider .swiper-button-next {
+  right: 2%;
+}
+
+.project-slider .swiper-button-prev:after,
+.project-slider .swiper-button-next:after {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.project-slider .swiper-button-prev:hover,
+.project-slider .swiper-button-next:hover {
+  opacity: 1;
 }
