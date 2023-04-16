@@ -8,6 +8,7 @@ import Services from './components/Services';
 import Stats from './components/Stats';
 import Projects from './components/Projects';
 import Plans from './components/Plans';
+import Score from './components/Score';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Stats />
         <Projects />
         <Plans />
+        <Score />
       </Layout>
     </ThemeProvider>
   );

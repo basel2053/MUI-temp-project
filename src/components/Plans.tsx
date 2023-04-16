@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 
 const Plans = () => {
   return (
-    <div style={{ position: 'relative', marginBottom: '10rem' }}>
+    <div style={{ position: 'relative', marginBottom: '9rem' }}>
       <Typography textAlign="center" variant="h4" fontWeight="700">
         Select A Suitable <span style={{ color: '#03A4ED' }}> Plan</span> For Your <br />
         Next
@@ -34,7 +34,7 @@ const Plans = () => {
             sx={{
               bgColor: '#fff',
               boxShadow: '0px 0px 15px rgba(0,0,0,0.05)',
-              width: '31%',
+              width: '33%',
               py: 6,
               px: 4,
               borderRadius: '40px',
@@ -76,7 +76,7 @@ const Plans = () => {
             sx={{
               bgColor: '#fff',
               boxShadow: '0px 0px 15px rgba(0,0,0,0.05)',
-              width: '31%',
+              width: '33%',
               py: 6,
               px: 4,
               borderRadius: '40px',
@@ -118,7 +118,7 @@ const Plans = () => {
             sx={{
               bgColor: '#fff',
               boxShadow: '0px 0px 15px rgba(0,0,0,0.05)',
-              width: '31%',
+              width: '33%',
               py: 6,
               px: 4,
               borderRadius: '40px',
