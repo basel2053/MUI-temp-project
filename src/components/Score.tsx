@@ -11,7 +11,7 @@ const Score = () => {
       sx={{
         maxWidth: { xl: 1350, lg: 1400, md: 1040, tl: 800, sm: 600 },
         mt: 0,
-        mb: 4,
+        mb: 20,
         position: 'relative',
       }}
     >

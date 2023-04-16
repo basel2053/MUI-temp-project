@@ -21,7 +21,10 @@ const communityLinks = ['Digital Marketing', 'Business Ideas', 'Website Checkup'
 
 function Footer() {
   return (
-    <Box>
+    <Box sx={{ position: 'relative' }}>
+      <Box sx={{ position: 'absolute', width: '100%', top: -150 }}>
+        <img src="/images/footer-dec.png" alt="footer" width="100%" />
+      </Box>
       <Container sx={{ maxWidth: { xl: 1400, lg: 1400, md: 1040, tl: 800, sm: 600 } }}>
         <Stack direction="row" sx={{ px: 2.8 }}>
           <Box sx={{ flex: 1 }}>
