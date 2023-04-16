@@ -92,3 +92,9 @@
 .project-slider .swiper-button-next:hover {
   opacity: 1;
 }
+
+.plan-desc {
+  color: #7a7a7a;
+  font-size: 15px;
+  margin-bottom: 20px;
+}

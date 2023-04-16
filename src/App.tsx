@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import Stats from './components/Stats';
 import Projects from './components/Projects';
+import Plans from './components/Plans';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Services />
         <Stats />
         <Projects />
+        <Plans />
       </Layout>
     </ThemeProvider>
   );
